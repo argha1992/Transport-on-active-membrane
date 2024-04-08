@@ -1,12 +1,14 @@
-Copyright (c) 2024 Saurav Verma, Department of Physics, 
-                   Indian Institute of Science, Bengaluru, Karnataka, 560012 
+Copyright (c) 2024 Saurav Verma, Department of Physics,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indian Institute of Science, Bengaluru, Karnataka, 560012
+
 
 Copyright (c) 2024 Argha Mitra, Department of Physics, 
-                   Indian Institute of Science, Bengaluru, Karnataka, 560012
 
-Copyright (c) 2024 Sumantra Sarkar, Department of Physics, 
-                   Indian Institute of Science, Bengaluru, Karnataka, 560012
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indian Institute of Science, Bengaluru, Karnataka, 560012
 
+Copyright (c) 2024 Sumantra Sarkar, Department of Physics,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indian Institute of Science, Bengaluru, Karnataka, 560012
 
 
 
