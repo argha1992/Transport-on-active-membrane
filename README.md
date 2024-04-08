@@ -36,7 +36,7 @@ Each script within the toolkit is designed to be run from the command line and h
 ### `correlated_flow.py`
 To analyze displacement vectors and correlations for lipid molecules, use:
 ```bash
-python correlated_flow.py -t topology.tpr -s trajectory.trr
+python3 correlated_flow.py -t topology.tpr -s trajectory.trr
 ```
 Options:
 - `tpr_file`: Path to the input .tpr (topology) file.
@@ -45,7 +45,7 @@ Options:
 ### `msd_grid_timeavg.py`
 For computing the Mean Squared Displacement (MSD) of lipids or selected atoms on a grid, execute:
 ```bash
-python msd_grid_timeavg.py -t topology.tpr -s trajectory.trr -x "PO4"
+python3 msd_grid_timeavg.py -t topology.tpr -s trajectory.trr -x "PO4"
 ```
 Options:
 - `-t`, `--tpr`: Path to the input .tpr file.
@@ -55,14 +55,14 @@ Options:
 ### `membrane_sim.py`
 This script is executed with predefined parameters within the code.
 ```bash
-python membrane_sim.py
+python3 membrane_sim.py
 ```
 Options:
 
 ### `MSD_analysis 1.py`
 The script expects an input configuration file specifying simulation parameters such as tracer radius, area fraction, binding probability, and more.
 ```bash
-python MSD_analysis 1.py input_parameters.txt
+python3 MSD_analysis 1.py input_parameters.txt
 ```
 ## Examples
 To help you get started, here are some example commands and expected outcomes:
