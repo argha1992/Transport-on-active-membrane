@@ -1,0 +1,2 @@
+Molecular Dynamics Simulation Analysis Toolkit
+This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membranes and tracer particles in molecular dynamics (MD) simulations. The toolkit is designed for researchers in biophysics, computational chemistry, and related fields, providing insights into membrane fluidity, tracer mobility, and the effects of active processes.
