@@ -1,3 +1,36 @@
+"""
+This script is designed to calculate the Mean Squared Displacement (MSD) of lipids in a molecular dynamics (MD) simulation. 
+It uses MDAnalysis to load simulation data from provided .tpr (topology) and .trr (trajectory) files. The script allows 
+for selection of specific atoms or groups of atoms to analyze, with a default selection of 'all' atoms. The user can specify 
+the atom selection string via command-line arguments.
+
+The main functionalities of this script include:
+- Reading input MD simulation GROMACS output files (.tpr and .trr) and atom selection criteria from command-line arguments.
+- Dynamically adjusting the simulation box size (30 x 30 nm) based on the input data and setting up a grid (10 x 10) system to map each lipid's position.
+- Tracking the movement of each selected atom throughout the simulation trajectory, accounting for periodic boundary conditions.
+- Calculating the Mean Squared Displacement (MSD) for lipids in each grid square of the simulation box, providing insights into lipid mobility.
+- Saving the calculated MSD values into text files, organized by grid squares, for further analysis.
+
+The output data can be used to study the diffusive behavior of lipids within the membrane or between different domains, aiding in the 
+understanding of membrane fluidity, the effects of embedded proteins, or the impact of external forces on membrane dynamics.
+
+Usage:
+The script requires three command-line arguments:
+- `-t` or `--tpr`: The path to the input .tpr file.
+- `-s` or `--trr`: The path to the input .trr file.
+- `-x` or `--select`: The atom selection string (optional, defaults to "all").
+
+Example command:
+`python msd_grid_timeavg.py -t topology.tpr -s trajectory.trr -x "PO4"`
+
+Dependencies:
+- MDAnalysis: for loading and manipulating MD simulation data.
+- NumPy: for numerical operations.
+- SciPy: for statistical functions and curve fitting.
+- argparse: for parsing command-line options.
+
+"""
+
 import MDAnalysis as mda
 import os
 import numpy as np
