@@ -1,10 +1,11 @@
-# Molecular Dynamics Simulation Analysis Toolkit
+# Toolkit used in "Transport of molecules is temperature independent on active membranes" 
 
-This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane and lattice particle simulations. The toolkit is designed for researchers in biophysics, computational chemistry, and related fields, providing insights into membrane fluidity, tracer mobility, and the effects of active processes.
+This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane molecular dynamics simulation and lattice particle kinetic monte-carlo simulations. 
 
 ## Scripts Overview
 
-## Codes for MARTINI v3.0 lipids
+## Codes for the coarse-grained MARTINI v3.0 lipids (GROMACS formatted .tpr and .trr)
+
 #### `correlated_flow.py`
 Calculates displacement vectors and displacement-displacement correlations (DDC) for lipid molecules. It helps in understanding the collective behavior of lipids, essential for studying membrane fluidity and molecule interactions.
 
@@ -18,16 +19,12 @@ Simulates the dynamics of a two-dimensional lattice model to study lipid membran
 #### `MSD_analysis 1.py`
 Analyzes the mobility of bound and non-bound tracers in MD simulations. It calculates the MSD for each type of tracer, providing insights into their diffusive behavior under various conditions.
 
+## Dependencies and Software Requirements
+- Python 3.10 (or above)
+- Python packages: NumPy, SciPy, MDAnalysis, Numba (for `membrane_sim.py`)
+
 ## Installation
-
-Requirements include Python (>3) and the following libraries:
-- MDAnalysis
-- NumPy
-- SciPy
-- Numba (for `membrane_sim.py`)
-
-To install the necessary libraries (excluding standard libraries), run:
-
+No installation is required. Directly run the Python programs if the dependencies are installed before. If not then install the necessary libraries (excluding standard libraries), run:
 ```bash
 pip install MDAnalysis numpy scipy numba
 ```
@@ -73,20 +70,23 @@ python3 MSD_analysis 1.py input_parameters.txt
 ## Examples
 To help you get started, here are some example commands and expected outcomes:
 
-Correlated Flow Analysis MARTINI lipids: Run correlated_flow.py to analyze how lipid molecules move relative to each other over time within a radius. This script outputs a .txt file containing the radial distribution functions and displacement-displacement correlation as a function of radius.
+Correlated Flow Analysis MARTINI lipids: Run correlated_flow.py to analyze how pure DPPC molecules move relative to each other over time within a radius. This script outputs a .txt file containing the radial distribution functions and displacement-displacement correlation as a function of radius.
 
-Mean Squared Displacement Analysis for MARTINI lipids: Use msd_grid_timeavg.py to calculate the time-averaged MSD of selected atoms or lipids in a grid box. This script outputs a .txt file containing the timestep and MSD for each grids.
+Mean Squared Displacement Analysis for MARTINI lipids: Use msd_grid_timeavg.py to calculate the time-averaged MSD of pure DPPC lipids in a grid box. This script outputs a .txt file containing the timestep and MSD for each grid.
 
 Equilibrium and non-equilibrium Lattice simulation:
 
 
-Mean Squared Displacement Analysis for lattice:
+Mean Squared Displacement Analysis for Lattice:
 
 ## Output Data
-The scripts generate output files containing the analysis results. For example, displacement vectors, MSD values, and correlation functions. These files are saved in specified directories or alongside the input files, depending on the script's configuration.
+The scripts generate output files containing the analysis results. For example, MSD values, and correlation functions. These files are saved in specified directories (please specify your path for the saving outputs). 
 
 ## Contributing
 We welcome contributions from the community! If you have suggestions for improvements, bug fixes, or new features, please feel free to submit an issue or pull request on GitHub.
+
+## Citation
+
 
 ## License
 
