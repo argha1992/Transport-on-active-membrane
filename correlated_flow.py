@@ -28,10 +28,15 @@ It performs the following major tasks:
    correlation functions. 
    These results are saved to a text file for further analysis and visualization.
 
-The script utilizes MDAnalysis, a Python library for the analysis of molecular dynamics simulations, along
-with other scientific computing packages such as NumPy, SciPy for efficient computation.
+Example command:
+`python correlated_flow.py topology.tpr trajectory.trr
 
-Dependencies: MDAnalysis, NumPy, SciPy
+Dependencies:
+- MDAnalysis: for loading and manipulating MD simulation data.
+- NumPy: for numerical operations.
+- SciPy: for statistical functions.
+- argparse: for parsing command-line options.
+
 """
 
 import os
