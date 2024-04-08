@@ -1,27 +1,35 @@
 """
-This script is designed for the analysis of lipid membrane dynamics from molecular dynamics (MD) simulations. It performs the following major tasks:
+This script is designed for the analysis of lipid membrane dynamics from molecular dynamics (MD) simulations. 
+It performs the following major tasks:
 
-1. Parses input .tpr (topology) and .trr (trajectory) file paths from the command line arguments. These files are essential for analyzing the dynamics 
-   of molecules within the simulation, specifically focusing on lipid molecules.
+1. Parses input .tpr (topology) and .trr (trajectory) file paths from the command line arguments. 
+   These files are essential for analyzing the dynamics of molecules within the simulation, 
+   specifically focusing on lipid molecules.
 
-2. Calculates displacement vectors for lipid molecules across specified time intervals, taking into account the periodic boundary conditions of the 
-   simulation box. This is crucial for understanding how lipids move relative to each other over time.
+2. Calculates displacement vectors for lipid molecules across specified time intervals, taking 
+   into account the periodic boundary conditions of the simulation box. This is crucial for
+   understanding how lipids move relative to each other over time.
 
-3. Computes displacement-displacement correlations (DDC) to assess how the movement of one lipid molecule is correlated with the movement of its 
-   neighbors. This analysis provides insights into the collective behavior of lipids within the membrane, which is important for understanding 
+3. Computes displacement-displacement correlations (DDC) to assess how the movement of one lipid
+   molecule is correlated with the movement of its neighbors. This analysis provides insights 
+   into the collective behavior of lipids within the membrane, which is important for understanding 
    membrane fluidity, stability, and interactions with other molecules.
    
- 4. On a fixed time interval $\tau$, the displacement vectors for the $i^{th}$ and the $j^{th}$ lipids, $\hat{{x}}_i({r}_i,\tau)$ 
-    and $\hat{{x}}_j({r}_j,\tau)$ were calculated. The correlation function is then given by,
-    {g(r, \tau)_x = \frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{N} \langle \hat{{x}}_i({r}_i,\tau) \cdot \hat{{x}}_j({r}_j,\tau)\delta(r-|r_{ij}(t_0)|) \rangle}
+4. On a fixed time interval $\tau$, the displacement vectors for the $i^{th}$ and the $j^{th}$ lipids, 
+   $\hat{{x}}_i({r}_i,\tau)$ and $\hat{{x}}_j({r}_j,\tau)$ were calculated. The correlation function is 
+   then given by,
+    
+   {g(r, \tau)_x = \frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{N} \langle \hat{{x}}_i({r}_i,\tau) \cdot \hat{{x}}_j({r}_j,\tau)\delta(r-|r_{ij}(t_0)|) \rangle}
 
-    where N is the number of particles in the system, $r_{ij}(t_0)$ is the initial separation distance between $i^{th}$ and the $j^{th}$ lipids.
+   where N is the number of particles in the system, $r_{ij}(t_0)$ is the initial separation distance 
+   between $i^{th}$ and the $j^{th}$ lipids.
  
-5. Outputs the results, including radial distances, radial distribution functions, and displacement-displacement correlation functions. 
+5. Outputs the results, including radial distances, radial distribution functions, and displacement-displacement
+   correlation functions. 
    These results are saved to a text file for further analysis and visualization.
 
-The script utilizes MDAnalysis, a Python library for the analysis of molecular dynamics simulations, along with other scientific computing packages 
-such as NumPy, SciPy for efficient computation.
+The script utilizes MDAnalysis, a Python library for the analysis of molecular dynamics simulations, along
+with other scientific computing packages such as NumPy, SciPy for efficient computation.
 
 Dependencies: MDAnalysis, NumPy, SciPy
 """
