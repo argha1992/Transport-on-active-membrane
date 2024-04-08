@@ -5,9 +5,9 @@ Saurav G. Varma, Argha Mitra
 ### Year
 2024
 
-### References
+### Citation
 
-# Description" 
+# Description
 
 This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane molecular dynamics simulation and lattice particle kinetic monte-carlo simulations. 
 
