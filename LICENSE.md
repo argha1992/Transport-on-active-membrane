@@ -1,4 +1,7 @@
-Copyright (c) 2024 Argha Mitra and Saurav Verma
+Copyright (c) 2024 Saurav Verma, Department of Physics, Indian Institute of Science, Bengaluru, Karnataka, 560012 
+Copyright (c) 2024 Argha Mitra, Department of Physics, Indian Institute of Science, Bengaluru, Karnataka, 560012
+Copyright (c) 2024 Sumantra Sarkar, Department of Physics, Indian Institute of Science, Bengaluru, Karnataka, 560012
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
