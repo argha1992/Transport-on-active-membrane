@@ -19,7 +19,8 @@ It performs the following major tasks:
    $\hat{{x}}_i({r}_i,\tau)$ and $\hat{{x}}_j({r}_j,\tau)$ were calculated. The correlation function is 
    then given by,
     
-   {g(r, \tau)_x = \frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{N} \langle \hat{{x}}_i({r}_i,\tau) \cdot \hat{{x}}_j({r}_j,\tau)\delta(r-|r_{ij}(t_0)|) \rangle}
+   {g(r, \tau)_x = \frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{N} \langle \hat{{x}}_i({r}_i,\tau) \cdot \hat{{x}}_j({r}_j,
+                   \tau)\delta(r-|r_{ij}(t_0)|) \rangle}
 
    where N is the number of particles in the system, $r_{ij}(t_0)$ is the initial separation distance 
    between $i^{th}$ and the $j^{th}$ lipids.
