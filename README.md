@@ -67,7 +67,7 @@ Options:
 ### `lattice_simulation.py`
 This script is executed with predefined parameters within the code.
 ```bash
-python3 membrane_sim.py
+python3 lattice_simulation.py
 ```
 Options:
 
