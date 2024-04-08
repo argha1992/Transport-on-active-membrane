@@ -1,6 +1,6 @@
 # 
 ### Authors
-Saurav G. Varma, Argha Mitra, Sumantra Sarkar
+Saurav G. Varma, Argha Mitra
 
 ### Year
 2024
