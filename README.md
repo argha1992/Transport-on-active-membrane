@@ -22,7 +22,7 @@ Calculates displacement vectors and displacement-displacement correlations (DDC)
 Computes the time-averaged Mean Squared Displacement (MSD) of lipids or selected atoms on a grid, facilitating the analysis of local-diffusive behavior within the membrane.
 
 ## Code for LATTICE simulation 
-#### `membrane_sim.py`
+#### `lattice_simulation.py`
 Simulates the dynamics of a two-dimensional lattice model to study lipid membranes and embedded asters. It incorporates thermal fluctuations and active processes, allowing for the investigation of phase separation, self-assembly, and active patterning.
 
 #### `MSD_analysis 1.py`
@@ -64,7 +64,7 @@ Options:
 - `-s`, `--trr`: Path to the input .trr file.
 - `-x`, `--select`: Atom selection string, defaults to "all".
 
-### `membrane_sim.py`
+### `lattice_simulation.py`
 This script is executed with predefined parameters within the code.
 ```bash
 python3 membrane_sim.py
