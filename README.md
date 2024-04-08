@@ -80,7 +80,7 @@ We welcome contributions from the community! If you have suggestions for improve
 ## License
 
 This toolkit is available under the MIT License. Feel free to use, modify, and distribute it as per the license conditions.
-For more details, see the (LICENSE.md) file in this repository.
+For more details, see the [LICENSE](LICENSE.md) file in this repository.
 
 
 
