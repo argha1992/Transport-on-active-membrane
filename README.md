@@ -1,24 +1,26 @@
 # Molecular Dynamics Simulation Analysis Toolkit
 
-This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membranes and tracer particles in molecular dynamics (MD) simulations. The toolkit is designed for researchers in biophysics, computational chemistry, and related fields, providing insights into membrane fluidity, tracer mobility, and the effects of active processes.
+This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane and lattice particle simulations. The toolkit is designed for researchers in biophysics, computational chemistry, and related fields, providing insights into membrane fluidity, tracer mobility, and the effects of active processes.
 
 ## Scripts Overview
 
-### `correlated_flow.py`
-Calculates displacement vectors and displacement-displacement correlations for lipid molecules. It helps in understanding the collective behavior of lipids, essential for studying membrane fluidity and molecule interactions.
+## Codes for MARTINI v3.0 lipids
+#### `correlated_flow.py`
+Calculates displacement vectors and displacement-displacement correlations (DDC) for lipid molecules. It helps in understanding the collective behavior of lipids, essential for studying membrane fluidity and molecule interactions.
 
-### `msd_grid_timeavg.py`
-Computes the Mean Squared Displacement (MSD) of lipids or selected atoms on a grid, facilitating the analysis of diffusive behavior within the membrane.
+#### `msd_grid_timeavg.py`
+Computes the time-averaged Mean Squared Displacement (MSD) of lipids or selected atoms on a grid, facilitating the analysis of local-diffusive behavior within the membrane.
 
-### `membrane_sim.py`
+## Code for LATTICE simulation 
+#### `membrane_sim.py`
 Simulates the dynamics of a two-dimensional lattice model to study lipid membranes and embedded asters. It incorporates thermal fluctuations and active processes, allowing for the investigation of phase separation, self-assembly, and active patterning.
 
-### `MSD_analysis 1.py`
+#### `MSD_analysis 1.py`
 Analyzes the mobility of bound and non-bound tracers in MD simulations. It calculates the MSD for each type of tracer, providing insights into their diffusive behavior under various conditions.
 
 ## Installation
 
-Requirements include Python 3 and the following libraries:
+Requirements include Python (>3) and the following libraries:
 - MDAnalysis
 - NumPy
 - SciPy
@@ -29,12 +31,16 @@ To install the necessary libraries (excluding standard libraries), run:
 ```bash
 pip install MDAnalysis numpy scipy numba
 ```
+or 
+```bash
+conda install -c conda-forge mdanalysis numpy scipy numba
+```
 ## Detailed Usage
 
 Each script within the toolkit is designed to be run from the command line and has specific input requirements. Below you'll find more detailed usage instructions for each script, which include the necessary command-line arguments and any optional parameters you can include to customize the analysis.
 
 ### `correlated_flow.py`
-To analyze displacement vectors and correlations for lipid molecules, use:
+To analyze displacement displacement correlations (DDC) for lipid molecules, use:
 ```bash
 python3 correlated_flow.py -t topology.tpr -s trajectory.trr
 ```
@@ -67,9 +73,14 @@ python3 MSD_analysis 1.py input_parameters.txt
 ## Examples
 To help you get started, here are some example commands and expected outcomes:
 
-Correlated Flow Analysis: Run correlated_flow.py to analyze how lipid molecules move relative to each other over time. This script outputs a file containing the radial distribution functions and displacement-displacement correlation functions.
+Correlated Flow Analysis MARTINI lipids: Run correlated_flow.py to analyze how lipid molecules move relative to each other over time within a radius. This script outputs a .txt file containing the radial distribution functions and displacement-displacement correlation as a function of radius.
 
-Mean Squared Displacement Analysis: Use msd_grid_timeavg.py to calculate the MSD of selected atoms or lipids. This helps in understanding their diffusive behavior in the membrane environment.
+Mean Squared Displacement Analysis for MARTINI lipids: Use msd_grid_timeavg.py to calculate the time-averaged MSD of selected atoms or lipids in a grid box. This script outputs a .txt file containing the timestep and MSD for each grids.
+
+Equilibrium and non-equilibrium Lattice simulation:
+
+
+Mean Squared Displacement Analysis for lattice:
 
 ## Output Data
 The scripts generate output files containing the analysis results. For example, displacement vectors, MSD values, and correlation functions. These files are saved in specified directories or alongside the input files, depending on the script's configuration.
