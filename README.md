@@ -1,4 +1,13 @@
-# Toolkit used in "Transport of molecules is temperature independent on active membranes" 
+# 
+### Authors
+Saurav G. Varma, Argha Mitra, Sumantra Sarkar
+
+### Year
+2024
+
+### References
+
+# Description" 
 
 This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane molecular dynamics simulation and lattice particle kinetic monte-carlo simulations. 
 
