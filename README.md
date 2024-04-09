@@ -25,7 +25,7 @@ Computes the time-averaged Mean Squared Displacement (MSD) of lipids or selected
 #### `lattice_simulation.py`
 Simulates the dynamics of a two-dimensional lattice model to study lipid membranes and embedded asters. It incorporates thermal fluctuations and active processes, allowing for the investigation of phase separation, self-assembly, and active patterning.
 
-#### `MSD_analysis 1.py`
+#### `MSD_analysis.py`
 Analyzes the mobility of bound and non-bound tracers in MD simulations. It calculates the MSD for each type of tracer, providing insights into their diffusive behavior under various conditions.
 
 ## Dependencies and Software Requirements
@@ -71,10 +71,10 @@ python3 lattice_simulation.py
 ```
 Options:
 
-### `MSD_analysis 1.py`
+### `MSD_analysis.py`
 The script expects an input configuration file specifying simulation parameters such as tracer radius, area fraction, binding probability, and more.
 ```bash
-python3 MSD_analysis 1.py input_parameters.txt
+python3 MSD_analysis.py input_parameters.txt
 ```
 ## Examples
 To help you get started, here are some example commands and expected outcomes:
