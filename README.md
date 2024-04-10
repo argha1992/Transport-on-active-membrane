@@ -13,7 +13,7 @@ This collection of Python scripts offers a suite of tools for analyzing the dyna
 
 ## Scripts Overview
 
-## Codes for the coarse-grained MARTINI v3.0 lipids (GROMACS formatted .tpr and .trr)
+## Codes for the coarse-grained MARTINI v3.0 lipids (GROMACS formatted .tpr and .trr) analysis
 
 #### `correlated_flow.py`
 Calculates displacement vectors and displacement-displacement correlations (DDC) for lipid molecules. It helps in understanding the collective behavior of lipids, essential for studying membrane fluidity and molecule interactions.
@@ -21,7 +21,7 @@ Calculates displacement vectors and displacement-displacement correlations (DDC)
 #### `msd_grid_timeavg.py`
 Computes the time-averaged Mean Squared Displacement (MSD) of lipids or selected atoms on a grid, facilitating the analysis of local-diffusive behavior within the membrane.
 
-## Code for LATTICE simulation 
+## Code for LATTICE simulation and MSD analysis
 #### `lattice_simulation.py`
 Simulates the dynamics of a two-dimensional lattice model to study lipid membranes and embedded asters. It incorporates thermal fluctuations and active processes, allowing for the investigation of phase separation, self-assembly, and active patterning.
 
