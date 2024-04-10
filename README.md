@@ -94,9 +94,6 @@ The scripts generate output files containing the analysis results. For example, 
 ## Contributing
 We welcome contributions from the community! If you have suggestions for improvements, bug fixes, or new features, please feel free to submit an issue or pull request on GitHub.
 
-## Citation
-
-
 ## License
 
 This toolkit is available under the MIT License. Feel free to use, modify, and distribute it as per the license conditions.
