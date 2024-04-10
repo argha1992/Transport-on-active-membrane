@@ -83,10 +83,10 @@ Correlated Flow Analysis MARTINI lipids: Run correlated_flow.py to analyze how p
 
 Mean Squared Displacement Analysis for MARTINI lipids: Use msd_grid_timeavg.py to calculate the time-averaged MSD of pure DPPC lipids in a grid box. This script outputs a .txt file containing the timestep and MSD for each grid.
 
-Equilibrium and non-equilibrium Lattice simulation:
+Equilibrium and non-equilibrium Lattice simulation: Run lattice_simulation.py and modify accprding to your needs in the input parameters.
 
 
-Mean Squared Displacement Analysis for Lattice:
+Mean Squared Displacement Analysis for Lattice:Run MSD_analysis.py to get the time-averaged MSD of the particles from trhe lattice simulation.
 
 ## Output Data
 The scripts generate output files containing the analysis results. For example, MSD values, and correlation functions. These files are saved in specified directories (please specify your path for the saving outputs). 
