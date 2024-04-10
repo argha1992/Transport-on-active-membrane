@@ -29,12 +29,15 @@ Simulates the dynamics of a two-dimensional lattice model to study lipid membran
 Analyzes the mobility of bound and non-bound tracers in MD simulations. It calculates the MSD for each type of tracer, providing insights into their diffusive behavior under various conditions.
 
 ## Dependencies and Software Requirements
+
 - Python 3.10 (or above)
+
 Python packages:
 - NumPy
 - SciPy
 - MDAnalysis
-- Numba (for `membrane_sim.py`)
+- Numba (specifically for `membrane_sim.py`)
+
 
 ## Installation
 No installation is required. Directly run the Python programs if the dependencies are installed before. If not then install the necessary libraries (excluding standard libraries), run:
