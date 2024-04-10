@@ -1,4 +1,6 @@
 """
+Author: Argha Mitra, 2024
+
 This script is designed to calculate the Mean Squared Displacement (MSD) of lipids in a molecular dynamics (MD) simulation. 
 It uses MDAnalysis to load simulation data from provided .tpr (topology) and .trr (trajectory) files. The script allows 
 for selection of specific atoms or groups of atoms to analyze, with a default selection of 'all' atoms. The user can specify 
