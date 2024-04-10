@@ -30,11 +30,11 @@ Analyzes the mobility of bound and non-bound tracers in MD simulations. It calcu
 
 ## Dependencies and Software Requirements
 - Python 3.10 (or above)
-- Python packages:
-      - NumPy
-      - SciPy
-      - MDAnalysis
-      - Numba (for `membrane_sim.py`)
+Python packages:
+- NumPy
+- SciPy
+- MDAnalysis
+- Numba (for `membrane_sim.py`)
 
 ## Installation
 No installation is required. Directly run the Python programs if the dependencies are installed before. If not then install the necessary libraries (excluding standard libraries), run:
