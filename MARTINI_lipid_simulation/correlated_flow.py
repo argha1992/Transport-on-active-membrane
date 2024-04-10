@@ -1,4 +1,6 @@
 """
+Author: Argha Mitra, 2024
+
 This script is designed for the analysis of lipid membrane dynamics from molecular dynamics (MD) simulations. 
 It performs the following major tasks:
 
