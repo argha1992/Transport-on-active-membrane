@@ -1,6 +1,6 @@
 # 
 ### Authors
-Saurav G. Varma, Argha Mitra
+Saurav G. Varma and Argha Mitra
 
 ### Year
 2024
@@ -40,7 +40,7 @@ Python packages:
 
 
 ## Installation
-No installation is required. Directly run the Python programs if the dependencies are installed before. If not then install the necessary libraries (excluding standard libraries), run:
+No installation is required. Directly run the Python programs if the dependencies are installed before. If not then install the necessary libraries (excluding standard libraries), and run:
 ```bash
 pip install MDAnalysis numpy scipy numba
 ```
