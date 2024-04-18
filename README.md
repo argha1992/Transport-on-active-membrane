@@ -6,7 +6,8 @@ Saurav G. Varma and Argha Mitra
 2024
 
 ### Citation
-
+Self-diffusion is temperature independent on active membranes 
+doi: https://doi.org/10.48550/arXiv.2404.10581
 # Description
 
 This collection of Python scripts offers a suite of tools for analyzing the dynamics of lipid membrane molecular dynamics simulation and lattice particle kinetic monte-carlo simulations. 
