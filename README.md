@@ -6,7 +6,7 @@ Saurav G. Varma and Argha Mitra
 2024
 
 ### Citation
-Self-diffusion is temperature independent on active membranes 
+Self-diffusion is temperature independent on active membranes. 
 doi: https://doi.org/10.48550/arXiv.2404.10581
 # Description
 
